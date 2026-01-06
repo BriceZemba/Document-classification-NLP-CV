@@ -1,0 +1,27 @@
+{
+  "classes": ["id_card", "bank_statement", "elec_and_water_bill", "employer_doc", "other"],
+  "thresholds": {
+    "cv_confidence": 0.8,
+    "nlp_confidence": 0.7,
+    "fusion_rejection": 0.5
+  },
+  "geometry": {
+    "id_card": {
+      "min_ratio": 1.3,
+      "max_ratio": 1.8,
+      "requires_face": true
+    },
+    "others": {
+      "min_ratio": 0.5,
+      "max_ratio": 1.0,
+      "requires_face": false
+    }
+  },
+  "keywords": {
+    "id_card": ["CNIE", "Nationale", "Royaume", "Maroc", "Né le", "Nom", "Prénom", "Carte", "Passeport"],
+    "bank_statement": ["Solde initial", "créditeur", "Solde débiteur", "Relevé de compte", "Banque", "Attijariwafa Bank", "Banque Populaire", "CIH Bank", "IBAN", "Virement", "Versement", "Retrait"],
+    "elec_and_water_bill": ["kWh", "Tension", "Compteur", "Redal", "Lydec", "ONE", "m3", "Tranche", "Assainissement", "Distribution", "Eau", "Electricité", "Facture", "Facturation"],
+    "employer_doc": ["Salaire", "Paie", "Attestation", "Travail", "CNSS", "SARL", "SA", "Emploi", "Employeur"],
+    "other": ["Autre", "Document", "Inconnu"]
+  }
+}
