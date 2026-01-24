@@ -1,5 +1,15 @@
 # 🤖 Système de Classification de Documents
 
+[![Technical Report](https://img.shields.io/badge/Documentation-Technical%20Report-blue?style=for-the-badge&logo=read-the-dots)](./Technical_Report.pdf)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## 📋 Overview
+This project involves the ground-up construction of a Large Language Model (LLM), focusing on the core architectural principles of modern generative AI. Beyond simple implementation, this project serves as a research framework to explore **neural architecture design**, **tokenization strategies**, and **model interpretability**.
+
+## 📄 Academic Documentation
+For a deep dive into the mathematical foundations and performance analysis of this implementation, please refer to the full technical report:
+> **[Download Technical Report (PDF)](./Technical_Report_LLM.pdf)**
+
 ## 📋 Table des Matières
 
 1. [Vue d'ensemble](#vue-densemble)
